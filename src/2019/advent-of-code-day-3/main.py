@@ -4,6 +4,11 @@ def get_input():
         
     return input
 
+input = get_input()
+
+# Part 1
+# ==========
+
 def manhattan(x1, x2, y1, y2):
     return abs(x1 - x2) + abs(y1 - y2)
 
@@ -42,6 +47,12 @@ def find_intersections(input):
             
     return min(intersections)
 
+intersections = find_intersections(input)
+print(intersections)
+
+# Part 2
+# ==========
+
 def find_set_intersections(d1, d2):
     return list(set(d1.keys()) & set(d2.keys()))
 
@@ -75,16 +86,6 @@ def generate_coordinates(wire):
             
     return coords
 
-input = get_input()
-
-# Part 1
-# ==========
-
-intersections = find_intersections(input)
-print(intersections)
-
-# Part 2
-# ==========
 w1_coords = generate_coordinates(input[0])
 w2_coords = generate_coordinates(input[1])
 intersections = find_set_intersections(w1_coords, w2_coords)

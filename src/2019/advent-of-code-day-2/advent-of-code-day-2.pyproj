@@ -22,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="day2b.ipynb" />
+    <Content Include="day2.ipynb" />
     <Content Include="input.txt" />
   </ItemGroup>
   <ItemGroup>
