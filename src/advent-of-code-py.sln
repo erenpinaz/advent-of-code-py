@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2018", "2018", "{6ADE4830-AC6B-4A38-944B-FD28007BB6FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2019", "2019", "{FCD99DAF-E3EA-4539-B51E-F14705DE80CC}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "advent-of-code-day-1", "2018\advent-of-code-day-1\advent-of-code-day-1.pyproj", "{7F629F1C-3182-4CA6-BF82-461FD261F0BC}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "advent-of-code-day-2", "2018\advent-of-code-day-2\advent-of-code-day-2.pyproj", "{EF0204FC-93E0-4AC4-A6E4-2A89399B8849}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "advent-of-code-day-1", "2019\advent-of-code-day-1\advent-of-code-day-1.pyproj", "{80DFC106-1879-4503-B575-2CAE8C997965}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "advent-of-code-day-2", "2019\advent-of-code-day-2\advent-of-code-day-2.pyproj", "{B9B2C8D5-0CA4-45E4-BC8D-C8134F546D0A}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "advent-of-code-day-3", "2019\advent-of-code-day-3\advent-of-code-day-3.pyproj", "{AF805E1D-84F5-4536-9921-C6A3DB947FB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F629F1C-3182-4CA6-BF82-461FD261F0BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F629F1C-3182-4CA6-BF82-461FD261F0BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF0204FC-93E0-4AC4-A6E4-2A89399B8849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF0204FC-93E0-4AC4-A6E4-2A89399B8849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80DFC106-1879-4503-B575-2CAE8C997965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80DFC106-1879-4503-B575-2CAE8C997965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9B2C8D5-0CA4-45E4-BC8D-C8134F546D0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9B2C8D5-0CA4-45E4-BC8D-C8134F546D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF805E1D-84F5-4536-9921-C6A3DB947FB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF805E1D-84F5-4536-9921-C6A3DB947FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7F629F1C-3182-4CA6-BF82-461FD261F0BC} = {6ADE4830-AC6B-4A38-944B-FD28007BB6FC}
+		{EF0204FC-93E0-4AC4-A6E4-2A89399B8849} = {6ADE4830-AC6B-4A38-944B-FD28007BB6FC}
+		{80DFC106-1879-4503-B575-2CAE8C997965} = {FCD99DAF-E3EA-4539-B51E-F14705DE80CC}
+		{B9B2C8D5-0CA4-45E4-BC8D-C8134F546D0A} = {FCD99DAF-E3EA-4539-B51E-F14705DE80CC}
+		{AF805E1D-84F5-4536-9921-C6A3DB947FB4} = {FCD99DAF-E3EA-4539-B51E-F14705DE80CC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C411028E-998A-44CD-80BC-FD58782EBE9A}
+	EndGlobalSection
+EndGlobal
